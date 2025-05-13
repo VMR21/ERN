@@ -31,7 +31,7 @@ export default function Home() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          WELCOME TO ERNTMZ
+          THE GRIND NEVER STOPS
         </motion.h1>
 
         <motion.p
