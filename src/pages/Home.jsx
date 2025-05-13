@@ -59,9 +59,10 @@ export default function Home() {
           <a
             href="https://roobet.com/?ref=ernn"
             target="_blank"
-            className="bg-white/10 border border-white/20 text-white px-8 py-4 rounded-full hover:bg-primary hover:text-black transition text-lg backdrop-blur-md"
+            className="bg-white/10 border border-white/20 text-white px-8 py-4 rounded-full hover:bg-primary hover:text-black transition text-lg backdrop-blur-md flex items-center gap-2"
           >
-            🎁 Claim Roobet Bonus
+            <img src="https://roobet.com/assets/r-NQNxh0.svg" alt="Roobet" className="w-6 h-6" />
+            Sign Up on Roobet
           </a>
         </motion.div>
 
