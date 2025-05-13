@@ -3,15 +3,23 @@
 @tailwind utilities;
 
 body {
-  background-color: #0b0b0b;
+  background-color: #000;
   font-family: 'Orbitron', sans-serif;
+  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
 .glow-text {
-  text-shadow: 0 0 10px #3fffc0, 0 0 20px #3fffc0;
+  text-shadow: 0 0 12px #3fffc0, 0 0 25px #3fffc0;
 }
 
-.btn {
-  @apply bg-white/10 border border-white/20 text-white font-semibold px-6 py-3 rounded-full hover:bg-primary hover:text-black transition shadow;
+@keyframes float {
+  0% { transform: translateY(0) scale(1); opacity: 0.5; }
+  100% { transform: translateY(-100vh) scale(1.2); opacity: 0; }
+}
+
+.animate-float {
+  animation-name: float;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
