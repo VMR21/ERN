@@ -31,7 +31,7 @@ body::before {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: rgba(0, 0, 0, 0.4); /* darkness level */
+  background: rgba(0, 0, 0, 0.55); /* darkness level */
   z-index: -1;
   pointer-events: none;
 }
